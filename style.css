@@ -130,6 +130,7 @@ body {
 .next-btn:hover {
     background: #0ea5e9;
     transform: translateY(-3px);
+    transition: 0.3s ease;
     box-shadow: 0 0 3px rgba(56, 189, 248, 0.7);
 }
 
@@ -189,4 +190,33 @@ body {
 
 .restart-btn:hover {
     background: #4e8193;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 600px) {
+    .quiz-box,
+    .results-box {
+        padding: 20px;
+    }
+
+    .quiz-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .quiz-header h2 {
+        font-size: 1.4rem;
+    }
+
+    #question {
+        font-size: 1.2rem;
+    }
+
+    .answer-btn,
+    .next-btn,
+    .restart-btn {
+        width: 100%;
+    }
 }
