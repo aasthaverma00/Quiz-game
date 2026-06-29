@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>QUIZ GAME</title>
 </head>
+
 <body>
 
     <div class="container">
-        <div class="quiz-box">
+        <div class="quiz-box" id = "quizBox">
             <div class="quiz-header">
                 <h2>JavaScript Quiz App</h2>
-                <span class="progress"> 1 / 10</span>
+                <span class="progress" id="progress"> 1 / 10</span>
             </div>
             <div class="question-section">
                 <h3 id="question"></h3>
 
-                <div class="answers">
-                    <!-- Add answers using javascript-->
+                <div class="answers" id="answers">
+                    <!-- Add options using javascript-->
                 </div>
             </div>
             <div class="quiz-footer">
-                <button class="next-btn">Next Question </button>
+                <button class="next-btn" id="nextBtn">Next Question </button>
             </div>
+
+            <div class="results-box" id="resultsBox">
+            <h2>Quiz Complete!🎉</h2>
+            <div class="score-display">
+                <p class="score-test"></p>
+                <p class="score-number"></p>
+                <p class="score-percentage"></p>
+            </div>
+            <div class="result-message">Message</div>
+            <button class="restart-button"></button>
         </div>
+        </div>
+        
     </div>
 
 
@@ -33,4 +47,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
