@@ -1,38 +1,40 @@
-# 🐍 Snake Game
+# 🧠 Quiz Game
 
-A classic Snake Game built from scratch using **HTML, CSS, and JavaScript** with the Canvas API.
+A simple and interactive quiz game built with **HTML, CSS, and JavaScript**.  
+The game includes 15 multiple-choice questions with answer checking, score calculation, percentage display, and a final result screen.
 
 ## ✨ Features
 
-- 🎮 Classic Snake gameplay
-- 🏆 Score and best score tracking
-- 🔊 Sound effects with music toggle
-- ⌨️ Keyboard controls
-- 📱 Swipe controls for mobile
-- 🎛️ On-screen direction buttons
-- ⏸️ Pause functionality
-- 🌙 Dark/Light mode support
+- 📝 15 multiple-choice questions
+- 📊 Question progress tracking
+- ✅ Correct answer highlighting
+- ❌ Incorrect answer highlighting
+- 🏆 Final score calculation
+- 📈 Percentage calculation
+- 💬 Result message based on score
+- 🔄 Restart Quiz option
+- 📱 Responsive design for smaller screens
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Canvas API
 
 ## 🎮 How to Play
 
-- Use **Arrow Keys** or **WASD** to move the snake.
-- On mobile, use **swipe gestures** or the on-screen buttons.
-- Eat the food to increase your score.
-- Avoid hitting the walls or yourself.
-- Press **Space** to pause the game.
+1. Read the question carefully.
+2. Select one of the four options.
+3. Click **Next Question**.
+4. Your answer will be checked and the correct/incorrect option will be highlighted.
+5. Continue until all 15 questions are completed.
+6. View your final score, percentage, and result message.
+7. Click **Restart Quiz** to play again.
 
 ## 📂 Project Structure
 
 ```text
-Snake-Game/
-│
+Quiz-Game/
 ├── index.html
 ├── style.css
-└── script.js
+└── main.js
